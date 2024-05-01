@@ -16,7 +16,6 @@ client.on('message', msg => {
       msg.reply('Pong!');
     }
     else {
-        msg.reply(msg.content);
       console.log(msg.content);
     }
 });
