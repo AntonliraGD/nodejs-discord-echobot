@@ -15,7 +15,7 @@ client.on('message', msg => {
     else if (msg.content === 'ping') {
       msg.reply('pong');
       }
-    else if (msg.content === 'que', 'Que', 'QUE') {
+    else if (msg.content === 'que') {
       msg.reply('so');
       }
     else if (msg.content === 'rra') {
