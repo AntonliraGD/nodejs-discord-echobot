@@ -13,7 +13,37 @@ client.on('message', msg => {
       return;
     }
     else if (msg.content === 'ping') {
-      msg.reply('Pong!');
+      msg.reply('pong');
+      }
+    else if (msg.content === 'que') {
+      msg.reply('so');
+      }
+    else if (msg.content === 'rra') {
+      msg.reply('tumama');
+      }
+    else if (msg.content === 'hola') {
+      msg.reply('wenas');
+      }
+    else if (msg.content === 'a') {
+      msg.reply('e');
+      }
+    else if (msg.content === 'i') {
+      msg.reply('o');
+       }
+    else if (msg.content === 'u') {
+      msg.reply('burriquito como tu');
+       }
+    else if (msg.content === 'cp') {
+      msg.reply('club penguin');
+       }
+    else if (msg.content === 'slaughterhouse') {
+      msg.reply('ME PASE ESLAUTERJAAAAAU');
+      }
+    else if (msg.content === 'when te pasas eslauterjau') {
+      msg.reply('ME PASE ESLAUTERJAAAAAU');
+      }
+    else if (msg.content === 'como') {
+      msg.reply('comiendo lomo');
     }
     else {
     }
